@@ -2,7 +2,7 @@
 /**
  * The Sidebar containing the main widget areas.
  *
- * @package _s
+ * @package Cro_s-Cla_s_Geek
  */
 ?>
 	<div id="secondary" class="widget-area" role="complementary">
@@ -13,14 +13,14 @@
 			</aside>
 
 			<aside id="archives" class="widget">
-				<h1 class="widget-title"><?php _e( 'Archives', '_s' ); ?></h1>
+				<h1 class="widget-title"><?php _e( 'Archives', 'cro_s-clacro_s_cla_s_geek_geek' ); ?></h1>
 				<ul>
 					<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 				</ul>
 			</aside>
 
 			<aside id="meta" class="widget">
-				<h1 class="widget-title"><?php _e( 'Meta', '_s' ); ?></h1>
+				<h1 class="widget-title"><?php _e( 'Meta', 'cro_s-clacro_s_cla_s_geek_geek' ); ?></h1>
 				<ul>
 					<?php wp_register(); ?>
 					<li><?php wp_loginout(); ?></li>

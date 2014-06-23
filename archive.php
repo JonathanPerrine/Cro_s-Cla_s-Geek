@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package _s
+ * @package Cro_s-Cla_s_Geek
  */
 
 get_header(); ?>
@@ -24,46 +24,46 @@ get_header(); ?>
 							single_tag_title();
 
 						elseif ( is_author() ) :
-							printf( __( 'Author: %s', '_s' ), '<span class="vcard">' . get_the_author() . '</span>' );
+							printf( __( 'Author: %s', 'cro_s-clacro_s_cla_s_geek_geek' ), '<span class="vcard">' . get_the_author() . '</span>' );
 
 						elseif ( is_day() ) :
-							printf( __( 'Day: %s', '_s' ), '<span>' . get_the_date() . '</span>' );
+							printf( __( 'Day: %s', 'cro_s-clacro_s_cla_s_geek_geek' ), '<span>' . get_the_date() . '</span>' );
 
 						elseif ( is_month() ) :
-							printf( __( 'Month: %s', '_s' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', '_s' ) ) . '</span>' );
+							printf( __( 'Month: %s', 'cro_s-clacro_s_cla_s_geek_geek' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'cro_s-clacro_s_cla_s_geek_geek' ) ) . '</span>' );
 
 						elseif ( is_year() ) :
-							printf( __( 'Year: %s', '_s' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', '_s' ) ) . '</span>' );
+							printf( __( 'Year: %s', 'cro_s-clacro_s_cla_s_geek_geek' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'cro_s-clacro_s_cla_s_geek_geek' ) ) . '</span>' );
 
 						elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-							_e( 'Asides', '_s' );
+							_e( 'Asides', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
-							_e( 'Galleries', '_s');
+							_e( 'Galleries', 'cro_s-clacro_s_cla_s_geek_geek');
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', '_s');
+							_e( 'Images', 'cro_s-clacro_s_cla_s_geek_geek');
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-							_e( 'Videos', '_s' );
+							_e( 'Videos', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-							_e( 'Quotes', '_s' );
+							_e( 'Quotes', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-							_e( 'Links', '_s' );
+							_e( 'Links', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						elseif ( is_tax( 'post_format', 'post-format-status' ) ) :
-							_e( 'Statuses', '_s' );
+							_e( 'Statuses', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						elseif ( is_tax( 'post_format', 'post-format-audio' ) ) :
-							_e( 'Audios', '_s' );
+							_e( 'Audios', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
-							_e( 'Chats', '_s' );
+							_e( 'Chats', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						else :
-							_e( 'Archives', '_s' );
+							_e( 'Archives', 'cro_s-clacro_s_cla_s_geek_geek' );
 
 						endif;
 					?>
@@ -90,7 +90,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php _s_paging_nav(); ?>
+			<?php cro_s_cla_s_geek_paging_nav(); ?>
 
 		<?php else : ?>
 

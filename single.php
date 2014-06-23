@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package _s
+ * @package Cro_s-Cla_s_Geek
  */
 
 get_header(); ?>
@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php _s_post_nav(); ?>
+			<?php cro_s_cla_s_geek_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
